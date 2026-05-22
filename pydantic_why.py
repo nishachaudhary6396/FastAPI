@@ -24,11 +24,6 @@ def insert_patient_data(patient: Patient):
     print(patient.contact_details)
     print('inserted')
 
-def update_patient_data(patient: Patient):
-    print(patient.name)
-    print(patient.age)
-    print('inserted')
-
 patient_info = {'name': 'nisha', 'age': 22, 'email':'abc@gmail.com', 'url': 'https://hopitalmanagement.com','weight':47.3, 'married': True, 'contact_details': {'email':'abc@gmail.com', 'phone': '91190339333'}}
 
 patient1 = Patient(**patient_info)
